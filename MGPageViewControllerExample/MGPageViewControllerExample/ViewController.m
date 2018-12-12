@@ -39,7 +39,6 @@
         
         [vc.view addSubview:titleLbl];
         
-        
         [viewControllers addObject:vc];
     }
     

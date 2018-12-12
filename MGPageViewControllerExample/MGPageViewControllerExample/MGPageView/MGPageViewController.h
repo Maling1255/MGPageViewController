@@ -11,6 +11,17 @@
 
 @interface MGPageViewController : UIViewController
 
+
+/**
+ 构造方法
+
+ @param viewControllers 盛放子控制器的数组
+ @param titles 盛放titles数组
+ @param normalColor title 默认颜色
+ @param selectColor title 选中颜色
+ @param target 目标对象
+ @return 构造对象
+ */
 + (instancetype)viewControllers:(NSArray < UIViewController *> *)viewControllers
                          titles:(NSArray <NSString *> *)titles
                     normalColor:(UIColor *)normalColor
